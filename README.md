@@ -67,8 +67,8 @@ This is the public endpoint of the entire application for the web app. This adds
 ```
 
 2. GET /getUrl
+&nbsp;&nbsp; Params: 
 ```json
-&nbsp;&nbsp; Params:  
 {
     "short_url": "http://cmpe.sjsu/osp8bx"
 }
