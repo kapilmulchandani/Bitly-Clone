@@ -1,0 +1,14 @@
+.mid_page_h1{
+    color: #252628;
+    font-family: "ProximaNova ExtraBold","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 62px;
+    font-weight: 800;
+    line-height: 56px;
+}
+
+.mid_page_h2 {
+    color: #56575b;
+    font-family: "ProximaNova Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}

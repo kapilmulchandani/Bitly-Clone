@@ -1,0 +1,9 @@
+FROM golang:latest
+EXPOSE 8009
+RUN mkdir /app
+ADD . /app/
+WORKDIR /app
+ENV GOPATH /app
+RUN go get "github.com/gin-gonic/gin"; go get "github.com/go-sql-driver/mysql"; go get "github.com/streadway/amqp"; go get github.com/gin-contrib/cors
+RUN cd /app/src ; go install LR
+CMD ["/app/bin/LR"]
