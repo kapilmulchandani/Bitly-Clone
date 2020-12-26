@@ -50,30 +50,36 @@ This is the public endpoint of the entire application for the web app. This adds
 ## APIs
 
 1. POST /create  
-
+```json
 &nbsp;&nbsp; Request body:  
 &nbsp;&nbsp; {  
 &nbsp;&nbsp; "url" : "https://app.slack.com/client/T0AMW0A3S/C018XCQGGFL/thread/C018XCQGGFL-1607282036.001400"  
 &nbsp;&nbsp; }  
+```
 &nbsp;&nbsp; Response :  
+```json
 &nbsp;&nbsp; {  
 &nbsp;&nbsp; "long_URL": "https://app.slack.com/client/T0AMW0A3S/C018XCQGGFL/thread/C018XCQGGFL-1607282036.001400",  
 &nbsp;&nbsp; "message": "201 Created",  
 &nbsp;&nbsp; "short_URL": "http://cmpe.sjsu/osp8bx"  
 &nbsp;&nbsp; }  
+```
 
 2. GET /getUrl
-
+```json
 &nbsp;&nbsp; Params:  
 &nbsp;&nbsp; {  
 &nbsp;&nbsp; "short_url" : "http://cmpe.sjsu/osp8bx"  
 &nbsp;&nbsp; }
+```
 
-&nbsp;&nbsp; Response :  
+&nbsp;&nbsp; Response :
+```json
 &nbsp;&nbsp; {  
 &nbsp;&nbsp; "hits": "2",  
 &nbsp;&nbsp; "last_accessed": "2020-12-10 05:31:56.171214794 +0000 UTC m=+22922.251402975",    
 &nbsp;&nbsp; "message": "301 Found",    
 &nbsp;&nbsp; "url": "https://app.slack.com/client/T0AMW0A3S/C018XCQGGFL/thread/C018XCQGGFL-1607282036.001400"    
 &nbsp;&nbsp; }  
+```
    
