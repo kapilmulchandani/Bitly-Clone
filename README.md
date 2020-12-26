@@ -50,11 +50,12 @@ This is the public endpoint of the entire application for the web app. This adds
 ## APIs
 
 1. POST /create  
-```json
+
 &nbsp;&nbsp; Request body:  
-&nbsp;&nbsp; {  
-&nbsp;&nbsp; "url" : "https://app.slack.com/client/T0AMW0A3S/C018XCQGGFL/thread/C018XCQGGFL-1607282036.001400"  
-&nbsp;&nbsp; }  
+```json
+{  
+ "url" : "https://app.slack.com/client/T0AMW0A3S/C018XCQGGFL/thread/C018XCQGGFL-1607282036.001400"  
+}  
 ```
 &nbsp;&nbsp; Response :  
 ```json
