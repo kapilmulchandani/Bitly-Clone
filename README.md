@@ -53,34 +53,34 @@ This is the public endpoint of the entire application for the web app. This adds
 
 &nbsp;&nbsp; Request body:  
 ```json
-{  
- "url" : "https://app.slack.com/client/T0AMW0A3S/C018XCQGGFL/thread/C018XCQGGFL-1607282036.001400"  
-}  
+{
+    "url": "https://app.slack.com/client/T0AMW0A3S/C018XCQGGFL/thread/C018XCQGGFL-1607282036.001400"
+} 
 ```
 &nbsp;&nbsp; Response :  
 ```json
-&nbsp;&nbsp; {  
-&nbsp;&nbsp; "long_URL": "https://app.slack.com/client/T0AMW0A3S/C018XCQGGFL/thread/C018XCQGGFL-1607282036.001400",  
-&nbsp;&nbsp; "message": "201 Created",  
-&nbsp;&nbsp; "short_URL": "http://cmpe.sjsu/osp8bx"  
-&nbsp;&nbsp; }  
+{
+    "long_URL": "https://app.slack.com/client/T0AMW0A3S/C018XCQGGFL/thread/C018XCQGGFL-1607282036.001400",
+    "message": "201 Created",
+    "short_URL": "http://cmpe.sjsu/osp8bx"
+}
 ```
 
 2. GET /getUrl
 ```json
 &nbsp;&nbsp; Params:  
-&nbsp;&nbsp; {  
-&nbsp;&nbsp; "short_url" : "http://cmpe.sjsu/osp8bx"  
-&nbsp;&nbsp; }
+{
+    "short_url": "http://cmpe.sjsu/osp8bx"
+}
 ```
 
 &nbsp;&nbsp; Response :
 ```json
-&nbsp;&nbsp; {  
-&nbsp;&nbsp; "hits": "2",  
-&nbsp;&nbsp; "last_accessed": "2020-12-10 05:31:56.171214794 +0000 UTC m=+22922.251402975",    
-&nbsp;&nbsp; "message": "301 Found",    
-&nbsp;&nbsp; "url": "https://app.slack.com/client/T0AMW0A3S/C018XCQGGFL/thread/C018XCQGGFL-1607282036.001400"    
-&nbsp;&nbsp; }  
+{
+    "hits": "2",
+    "last_accessed": "2020-12-10 05:31:56.171214794 +0000 UTC m=+22922.251402975",
+    "message": "301 Found",
+    "url": "https://app.slack.com/client/T0AMW0A3S/C018XCQGGFL/thread/C018XCQGGFL-1607282036.001400"
+} 
 ```
    
